@@ -1,0 +1,103 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>wehelp-NurSultan</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">OUR TEAM</a></li>
+                    <li><a href="course.html">DONATION CENTERS</a></li>
+                
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Куда можно пожертвовать?</h1>
+    </section>
+    
+    
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>Благотворительные Фонды</h1>
+        <p>информация о каждом из фондов</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>«Клуб добряков Астаны»</h3>
+                <p>С 2015 года команде «Клуба добряков Астаны» удалось привлечь внимание общества к серьезным и значимым проблемам, а также помочь многим детям и их родителям, внести в их жизнь что-то доброе и светлое.<br>
+
+                    Принимают:<br>
+                    
+                    — любую одежду и обувь в хорошем состоянии<br>
+                    
+                    — мебель и другие предметы домашнего быта.<br>
+                    
+                    У клуба имеется собственный склад для вещей, где их принимают, затем распределяют и развозят малоимущим семьям, нуждающимся в материальной помощи.<br>
+                    
+                    Контакты: 8 777 866 77 11 — WhatsApp</p>
+            </div>
+            <div class="course-col">
+                <h3>«Дар»</h3>
+                <p>Основная цель фонда «Дар» — помощь детям, попавшим в трудную жизненную ситуацию, таким как: дети-сироты, дети, оставшиеся без попечения родителей, многодетные семьи, дети-инвалиды, а также дети, нуждающиеся в лечении.<br>
+
+                    Принимают:<br>
+                    
+                    — выстиранные вещи и обувь в хорошем состоянии, как детские, так и взрослые<br>
+                    
+                    — мебель, посуду и прочие полезные вещи для быта.<br>
+                    
+                    Распределяют вещи по списку малоимущих семей, уведомляют их, и они имеют возможность приехать и забрать нужные вещи.<br>
+                    
+                    Адрес: пр. Женис, 79 А, офис 201<br>
+                    
+                    Контакты: 522 962, 8 771 046 66 96, 8 701 136 98 96</p>
+            </div>
+            <div class="course-col">
+                <h3>«Нур Алем Казахстан»</h3>
+                <p>На сегодняшний день на попечение фонда принято 85 семей, относящихся к социально уязвимым слоям и, более 300 детей получили реальную помощь. В первую очередь принимаются на учет семьи находящиеся в очень тяжелом материальном положении и испытывают нужду и лишения.<br>
+
+                    Принимают:<br>
+                    
+                    — одежду, обувь, игрушки, лекарственные препараты по предписанию врача для ребенка<br>
+                    
+                    — мебель, посуду, бытовую технику, продукты питания.<br>
+                    
+                    Адрес: ул. Кажымукана, 14<br>
+                    
+                    Контакты: 8 707 220 22 30</p>
+            </div>
+        </div>
+    </section>
+    
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <p>made with <i class="fa fa-heart-o"></i> by team Kotakbastar</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    
